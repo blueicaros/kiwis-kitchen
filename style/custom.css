@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Merriweather:wght@400;600&family=Roboto+Mono&display=swap');
+
+:root > * {
+  /* Deine Farbpalette */
+  --papaya-whip:    #FFECCC;   
+  --apricot-cream:  #F2D0A4;   
+  --tea-green:      #C8D6AF;    
+  --cherry-rose:    #A4303F;    
+  --dark-raspberry: #870058; 
+
+  /* Material Farben überschreiben */
+  --md-primary-fg-color:        #A4303F;   
+  --md-primary-fg-color--light: #F2D0A4;    
+  --md-primary-fg-color--dark:  #870058;    
+
+  /* Hintergrund */
+  --md-primary-bg-color:        #FFECCC;   
+
+  --font-heading: 'Montserrat', sans-serif;
+  --font-body:    'Merriweather', serif;
+  --font-code:    'Roboto Mono', monospace;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+}
+
+.md-header__title {
+  font-family: var(--font-heading);
+  font-weight: 700;
+}
+
+body, p, li {
+  font-family: var(--font-body);
+}
+
+
+code, pre {
+  font-family: var(--font-code);
+}
